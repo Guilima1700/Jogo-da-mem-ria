@@ -77,3 +77,12 @@ header {
 
   }
 }
+
+@media (max-width: 540px) {
+  header {
+    font-size: 12px;
+    gap: 7px;
+    flex-wrap: wrap;
+  }
+
+}
