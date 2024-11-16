@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
   <meta charset="UTF-8">
@@ -9,18 +9,23 @@
 
   <script defer src="../js/game.js"></script>
 
-  <title>Memory Game</title>
+  <title>Jogo da Memória</title>
 </head>
 
 <body>
 
   <main>
     <header>
-      <span class="player"></span>
+      <span class="player">Jogador: <strong></strong></span>
       <span>Tempo: <span class="timer">00</span></span>
+      <span class="attempts">Tentativas: 0</span>
     </header>
 
     <div class="grid"></div>
+
+    <div class="controls">
+      <button class="reset-button">Reiniciar Jogo</button>
+    </div>
   </main>
 
 </body>
